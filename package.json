@@ -1,19 +1,11 @@
 {
   "name": "AngularNodeRestLogin",
   "version": "1.0.0",
+  "description": "Login Authentication",
   "main": "app/server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "express",
-    "jwt-authentication",
-    "jwt",
-    "mysql",
-    "angular",
-    "sequelize",
-    "authentication"
-  ],
   "dependencies": {
     "angular": "^1.6.2",
     "bcrypt": "^1.0.2",
