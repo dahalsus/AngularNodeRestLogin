@@ -30,6 +30,6 @@ app.get('*', function(req, res) {
     res.sendFile(path.join(__dirname + '/../public/app/views/index.html'));
 });
 
-app.listen('8072', function() {
-    console.log('Server running on port 8072');
+app.listen('8060', function() {
+    console.log('Server running on port 8060');
 });

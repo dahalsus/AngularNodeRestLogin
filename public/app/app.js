@@ -68,20 +68,20 @@
         // Index route.
         $stateProvider.state('index', {
             url: '/',
-            templateUrl: 'app/views/partials/partial-index.html'
+            templateUrl: 'app/views/segments/indexSegment.html'
         });
 
         // Login route.
         $stateProvider.state('login', {
             url: '/login',
-            templateUrl: 'app/views/partials/partial-login.html',
+            templateUrl: 'app/views/segments/loginSegment.html',
             controller: 'LoginController as lc'
         });
 
         // User area route.
         $stateProvider.state('profile', {
             url: '/profile',
-            templateUrl: 'app/views/partials/partial-profile.html',
+            templateUrl: 'app/views/segments/profileSegment.html',
             controller: 'ProfileController as pc',
             data: {
                 accessLevel: staticData.accessLevels.user
@@ -91,7 +91,7 @@
         // Admin area route.
         $stateProvider.state('admin', {
             url: '/admin',
-            templateUrl: 'app/views/partials/partial-admin.html',
+            templateUrl: 'app/views/segments/adminSegment.html',
             controller: 'AdminController as ac',
             data: {
                 accessLevel: staticData.accessLevels.admin
@@ -101,7 +101,7 @@
         // Signup route.
         $stateProvider.state('signup', {
             url: '/signup',
-            templateUrl: 'app/views/partials/partial-signup.html',
+            templateUrl: 'app/views/segments/signupSegment.html',
             controller: 'SignupController as sc'
         });
 
